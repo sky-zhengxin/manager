@@ -11,7 +11,7 @@
     <style type="text/css">
         .auto-style1 {
             width: 100%;
-            background-color:#d4d5d8;
+           
         }
         .auto-style2 {
             margin-left: 0px;
@@ -35,6 +35,78 @@
         <div class="u_selectstock">
 
             <table class="auto-style1">
+                <tr>
+                    <td class="auto-style3">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td class="auto-style4">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td class="auto-style4">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td class="auto-style4">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td class="auto-style4">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td class="auto-style4">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td class="auto-style4">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td class="auto-style4">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td class="auto-style4">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td class="auto-style4">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
                 <tr>
                     <td class="auto-style3">
                         <asp:CheckBox ID="CBstockid" runat="server" Text="进货单号" OnCheckedChanged="CheckBox_Click" />

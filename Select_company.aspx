@@ -36,13 +36,109 @@
         <table class="auto-style1">
             <tr>
                 <td class="auto-style3">
+                    &nbsp;</td>
+                <td class="auto-style4">
+                    &nbsp;</td>
+                <td class="auto-style4"></td>
+                <td class="auto-style4"></td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    &nbsp;</td>
+                <td class="auto-style4">
+                    &nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    &nbsp;</td>
+                <td class="auto-style4">
+                    &nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    &nbsp;</td>
+                <td class="auto-style4">
+                    &nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    &nbsp;</td>
+                <td class="auto-style4">
+                    &nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    &nbsp;</td>
+                <td class="auto-style4">
+                    &nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    &nbsp;</td>
+                <td class="auto-style4">
+                    &nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    &nbsp;</td>
+                <td class="auto-style4">
+                    &nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    &nbsp;</td>
+                <td class="auto-style4">
+                    &nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    &nbsp;</td>
+                <td class="auto-style4">
+                    &nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    &nbsp;</td>
+                <td class="auto-style4">
+                    &nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    &nbsp;</td>
+                <td class="auto-style4">
+                    &nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
                     <asp:CheckBox ID="CBname" runat="server" Text="公司名称：" OnCheckedChanged="CheckBox_Click"  />
                 </td>
                 <td class="auto-style4">
                     <asp:TextBox ID="txtname" runat="server"></asp:TextBox>
                 </td>
-                <td class="auto-style4"></td>
-                <td class="auto-style4"></td>
+                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style2">

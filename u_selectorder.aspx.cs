@@ -13,6 +13,11 @@ public partial class u_selectorder : System.Web.UI.Page
     private string sql = "select * from Goods_Order where 1=1";
     protected void Page_Load(object sender, EventArgs e)
     {
+        if (!IsPostBack)
+        {
+            bindname();
+            bindcompany();
+        }
 
     }
     void bindname()

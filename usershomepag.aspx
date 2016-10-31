@@ -6,7 +6,7 @@
      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
        <script type="text/javascript">
            function dos(string) {
-               var a = $("#rightpage iframe");
+               var a = $("#Rightpage iframe");
                switch (string) {
                    case 'Home': a.attr("src", "http://localhost:4775/U_background.aspx"); break;
                    case '订单查询': a.attr("src", "http://localhost:4775/u_selectorder.aspx"); break;
@@ -68,7 +68,7 @@
             </ul>
        </div>
        
-        <div class="rightpage">
+        <div id="Rightpage">
             <iframe  width="900px" height="600px" src="U_background.aspx">
             </iframe>
         </div>

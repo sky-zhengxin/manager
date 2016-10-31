@@ -61,6 +61,69 @@
             <table class="auto-style1">
                 <tr>
                     <td class="auto-style16">
+                        &nbsp;</td>
+                    <td class="auto-style9">
+                        &nbsp;</td>
+                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style16">
+                        &nbsp;</td>
+                    <td class="auto-style9">
+                        &nbsp;</td>
+                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style16">
+                        &nbsp;</td>
+                    <td class="auto-style9">
+                        &nbsp;</td>
+                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style16">
+                        &nbsp;</td>
+                    <td class="auto-style9">
+                        &nbsp;</td>
+                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style16">
+                        &nbsp;</td>
+                    <td class="auto-style9">
+                        &nbsp;</td>
+                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style16">
+                        &nbsp;</td>
+                    <td class="auto-style9">
+                        &nbsp;</td>
+                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style16">
+                        &nbsp;</td>
+                    <td class="auto-style9">
+                        &nbsp;</td>
+                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style16">
                         <asp:CheckBox ID="CBID" runat="server" text="订单编号" OnCheckedChanged="CheckBox_Click"/>
                     </td>
                     <td class="auto-style9">

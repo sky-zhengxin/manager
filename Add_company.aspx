@@ -26,6 +26,62 @@
     <div class="A_company">
         <table class="auto-style1">
             <tr>
+                <td class="auto-style2">&nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">&nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">&nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">&nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">&nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">&nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">&nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">&nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
                 <td class="auto-style2">公司名称：</td>
                 <td>
                     <asp:TextBox ID="txtCompany" runat="server"></asp:TextBox>

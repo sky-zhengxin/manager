@@ -33,6 +33,62 @@
         <table class="auto-style1">
             <tr>
                 <td class="auto-style3">
+                    &nbsp;</td>
+                <td class="auto-style4">
+                    &nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    &nbsp;</td>
+                <td class="auto-style4">
+                    &nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    &nbsp;</td>
+                <td class="auto-style4">
+                    &nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    &nbsp;</td>
+                <td class="auto-style4">
+                    &nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    &nbsp;</td>
+                <td class="auto-style4">
+                    &nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    &nbsp;</td>
+                <td class="auto-style4">
+                    &nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    &nbsp;</td>
+                <td class="auto-style4">
+                    &nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
                     <asp:CheckBox ID="CBID" runat="server"  Text="订单编号"/>
                 </td>
                 <td class="auto-style4">

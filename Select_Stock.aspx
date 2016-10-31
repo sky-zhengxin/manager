@@ -46,6 +46,55 @@
              <table class="auto-style1">
                  <tr>
                      <td class="auto-style3">
+                         &nbsp;</td>
+                     <td class="auto-style2">
+                         &nbsp;</td>
+                     <td class="auto-style2">&nbsp;</td>
+                 </tr>
+                 <tr>
+                     <td class="auto-style3">
+                         &nbsp;</td>
+                     <td class="auto-style2">
+                         &nbsp;</td>
+                     <td class="auto-style2">&nbsp;</td>
+                 </tr>
+                 <tr>
+                     <td class="auto-style3">
+                         &nbsp;</td>
+                     <td class="auto-style2">
+                         &nbsp;</td>
+                     <td class="auto-style2">&nbsp;</td>
+                 </tr>
+                 <tr>
+                     <td class="auto-style3">
+                         &nbsp;</td>
+                     <td class="auto-style2">
+                         &nbsp;</td>
+                     <td class="auto-style2">&nbsp;</td>
+                 </tr>
+                 <tr>
+                     <td class="auto-style3">
+                         &nbsp;</td>
+                     <td class="auto-style2">
+                         &nbsp;</td>
+                     <td class="auto-style2">&nbsp;</td>
+                 </tr>
+                 <tr>
+                     <td class="auto-style3">
+                         &nbsp;</td>
+                     <td class="auto-style2">
+                         &nbsp;</td>
+                     <td class="auto-style2">&nbsp;</td>
+                 </tr>
+                 <tr>
+                     <td class="auto-style3">
+                         &nbsp;</td>
+                     <td class="auto-style2">
+                         &nbsp;</td>
+                     <td class="auto-style2">&nbsp;</td>
+                 </tr>
+                 <tr>
+                     <td class="auto-style3">
                          <asp:CheckBox ID="CBstockid" runat="server" Text="订货单号" OnCheckedChanged="CheckBox_Click"   />
                      </td>
                      <td class="auto-style2">

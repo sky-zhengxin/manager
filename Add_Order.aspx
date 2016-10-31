@@ -51,11 +51,53 @@
         <table class="auto-style1">
             <tr>
                 <td class="auto-style6"></td>
+                <td class="auto-style7">&nbsp;</td>
+                <td class="auto-style6">
+                    &nbsp;</td>
+                <td class="auto-style6"></td>
+            </tr>
+            <tr>
+                <td class="auto-style6">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
+                <td class="auto-style6">
+                    &nbsp;</td>
+                <td class="auto-style6">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style6">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
+                <td class="auto-style6">
+                    &nbsp;</td>
+                <td class="auto-style6">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style6">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
+                <td class="auto-style6">
+                    &nbsp;</td>
+                <td class="auto-style6">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style6">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
+                <td class="auto-style6">
+                    &nbsp;</td>
+                <td class="auto-style6">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style6">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
+                <td class="auto-style6">
+                    &nbsp;</td>
+                <td class="auto-style6">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style6">&nbsp;</td>
                 <td class="auto-style7">订单ID</td>
                 <td class="auto-style6">
                     <asp:TextBox ID="txtOrderID" runat="server"></asp:TextBox>
                 </td>
-                <td class="auto-style6"></td>
+                <td class="auto-style6">&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style2"></td>

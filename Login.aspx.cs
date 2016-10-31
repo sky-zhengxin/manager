@@ -51,5 +51,28 @@ public partial class Login : System.Web.UI.Page
            
         }
 
-    
+
+        protected void txtName_TextChanged(object sender, EventArgs e)
+        {
+            string uid = txtName.Text.Trim();
+            
+            users us = new users();
+            us.uid = uid;
+            int result = us.u_login(us);
+            if (result > 0)
+            {
+            }
+            else
+            {
+                int result1 = us.A_login(us);
+
+                if (result1 > 0)
+                {
+                }
+                else{
+                    lblName.Visible = true;
+                    }
+           
+            }
+        }
 }

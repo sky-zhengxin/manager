@@ -49,7 +49,7 @@
                             </tr>
                             <tr>
                                 <td colspan="2">
-                                    <asp:TextBox ID="txtName" runat="server" Height="23px" Width="200px"></asp:TextBox>
+                                    <asp:TextBox ID="txtName" runat="server" Height="23px" Width="200px" OnTextChanged="txtName_TextChanged"></asp:TextBox>
                                     <asp:Label ID="lblTid" runat="server" Text="查无账户"></asp:Label>
                                 </td>
                             </tr>

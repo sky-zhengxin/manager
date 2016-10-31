@@ -29,6 +29,86 @@
             <table class="auto-style1">
                 <tr>
                     <td class="auto-style2">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
                         <asp:CheckBox ID="CBcompany" runat="server" Text="公司名称" />
                     </td>
                     <td>
