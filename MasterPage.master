@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="csss/Style.css" rel="stylesheet"  media="all" type="text/css"/>
+   
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            background-image:url(./images/background.jpg);
+        }
+        .auto-style4 {
+            height: 20px;
+            width: 235px;
+        }
+        .auto-style6 {
+            height: 31px;
+            width: 235px;
+        }
+        .auto-style7 {
+            width: 306px;
+            text-align: center;
+        }
+        </style>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <header>
+             <!-- title start here -->
+        <div class="title" >
+            
+            
+            
+            <table class="auto-style1">
+                <tr>
+                    <td class="auto-style4"></td>
+                    <td class="auto-style7" rowspan="3">
+                        <asp:Label ID="Laname" runat="server" Text="进销货管理系统" Font-Size="XX-Large" ForeColor="#99FF33" Font-Bold="True" Font-Italic="False" Font-Names="幼圆" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" ></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style6">
+                        <asp:Label ID="lblname" runat="server" ForeColor="#333333" ></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style6">
+                        <asp:LinkButton ID="lbutExit" runat="server" Text="注销" OnClick="lbutExit_Click"></asp:LinkButton>
+                    </td>
+                </tr>
+            </table>
+            
+            
+            
+        </div>
+        <!-- title end  here  -->
+        </header>
+       
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <footer>
+        </footer>
+       
+    </div>
+    </form>
+</body>
+</html>
