@@ -27,14 +27,13 @@
             width: 146px;
         }
          body {
-             background-color:#274aef;
+             background-image:url(./images/login.jpg);
          }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
      <!--login start here -->
     <div class="login">
-        <div class="container">
             <div class ="login-main">
                 <div class ="log-left">
                     <div id="log-left-top">
@@ -69,14 +68,14 @@
                             </tr>
                             <tr>
                                 <td class="auto-style11">
-                                    <asp:DropDownList ID="drpIdentity" runat="server">
+                                    <asp:DropDownList ID="drpIdentity" runat="server" Height="28px">
                                         <asp:ListItem Value="0">请选择登录身份</asp:ListItem>
                                         <asp:ListItem Value="ad">管理员</asp:ListItem>
                                         <asp:ListItem Value="us">用户</asp:ListItem>
                                     </asp:DropDownList>
                                 </td>
                                 <td class="auto-style5">
-                                    <asp:Button ID="btnLogin" runat="server" Height="23px" Text="登录" Width="100px" OnClick="btnLogin_Click" />
+                                    <asp:Button ID="btnLogin" runat="server" Height="26px" Text="登录" Width="100px" OnClick="btnLogin_Click" />
                                 </td>
                             </tr>
                         </table>
@@ -85,7 +84,7 @@
                 </div>
             </div>
         </div>
-    </div>
+
     
 <!-- login end here -->
 </asp:Content>

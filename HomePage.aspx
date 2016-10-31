@@ -29,7 +29,7 @@
         body
         {
             height: 100%;
-            background: #010141;
+            background-image:url(./images/back3.jpg);
         }
     </style>
  

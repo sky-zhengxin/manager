@@ -95,4 +95,11 @@ public partial class Add_Order : System.Web.UI.Page
 
         }
     }
+    protected void drpName_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        if (drpName.SelectedIndex == 7)
+        {
+            txtName.Visible = tr
+        }
+    }
 }

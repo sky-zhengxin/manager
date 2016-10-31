@@ -40,7 +40,7 @@ public partial class Login : System.Web.UI.Page
                 if (result > 0)
                 {
                     Session["id"] = uid;   //会话变量，网站通用，确定身份
-                    Response.Redirect("~/usershomepage.aspx");
+                    Response.Redirect("~/usershomepag.aspx");
                 }
                 else
                 {

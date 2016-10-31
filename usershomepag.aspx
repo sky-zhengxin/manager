@@ -26,7 +26,7 @@
         body
         {
             height: 100%;
-            background: #576a85;
+            background-image:url(./images/background2.jpg);
         }
     </style>
 </asp:Content>
@@ -44,7 +44,7 @@
                         
                     </ul>
                 </li>
-                <li><a href="#" class="sub" tabindex="1"><img src="images/t3.png" />棉纱信息管理</a><img src="images/up.gif" alt="" />
+                <li><a href="#" class="sub" tabindex="1"><img src="images/t2.png" />棉纱信息管理</a><img src="images/up.gif" alt="" />
                     <ul>
                        
                         <li><a href="#" onclick="dos('棉纱进货查询')"><img src="images/empty.gif" />棉纱进货查询</a></li>

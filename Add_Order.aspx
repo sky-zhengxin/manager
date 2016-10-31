@@ -61,7 +61,7 @@
                 <td class="auto-style2"></td>
                 <td class="auto-style4">货物名称</td>
                 <td class="auto-style2">
-                    <asp:DropDownList ID="drpName" runat="server" AutoPostBack="True">
+                    <asp:DropDownList ID="drpName" runat="server" AutoPostBack="True" OnSelectedIndexChanged="drpName_SelectedIndexChanged">
                         <asp:ListItem Value="0">-----货物名称-----</asp:ListItem>
                         <asp:ListItem Value="1">棉纱</asp:ListItem>
                         <asp:ListItem Value="2">麻线</asp:ListItem>
