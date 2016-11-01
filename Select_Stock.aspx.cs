@@ -176,7 +176,7 @@ public partial class Select_Stock : System.Web.UI.Page
         if (CBstarttime.Checked) sql +=  "and G_date >='" + starttime + "'";
         if (CBendtime.Checked) sql +=  "and G_date <= '"+ endtime +"'";
 
-        Label1.Text = sql;
+       
 
     }
 

@@ -119,7 +119,6 @@
                      <td>
                          <asp:TextBox ID="txtendtime" runat="server"></asp:TextBox>
                          <asp:CalendarExtender ID="txtendtime_CalendarExtender" runat="server" Enabled="True" TargetControlID="txtendtime"  Format="yyyy-MM-dd"></asp:CalendarExtender>
-                         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
                      </td>
                      <td>&nbsp;</td>
                  </tr>
