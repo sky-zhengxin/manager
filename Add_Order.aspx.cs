@@ -99,7 +99,7 @@ public partial class Add_Order : System.Web.UI.Page
     {
         if (drpName.SelectedIndex == 7)
         {
-            txtName.Visible = tr
+            txtName.Visible = true;
         }
     }
 }
