@@ -54,34 +54,6 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td>
-                    &nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td>
-                    &nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td>
-                    &nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td>
-                    &nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
                 <td class="auto-style2">公司名称：</td>
                 <td>
                     <asp:TextBox ID="txtCompany" runat="server"></asp:TextBox>
@@ -126,8 +98,7 @@
                     <asp:Button ID="btnAdd" runat="server" Text="增加"  Width="60px" OnClick="btnAdd_Click"/>
                 </td>
                 <td>
-                    <asp:Button ID="btnclean" runat="server" Text="清空"  Width="60px"/>
-                </td>
+                    &nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>

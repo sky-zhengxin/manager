@@ -177,7 +177,6 @@ public partial class select_kucun : System.Web.UI.Page
         string count = txtcount.Text.Trim();
         string minprice = txtMinprice.Text.Trim();
         string maxprice = txtMaxprice.Text.Trim();
-        Label1.Text = sql;
         SqlConnection coon = new SqlConnection(sqlcoon);
         try
         {
@@ -222,5 +221,6 @@ public partial class select_kucun : System.Web.UI.Page
         
     }
 
-    }
+   
+}
     

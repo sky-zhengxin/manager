@@ -43,6 +43,20 @@
             background-image:url(./images/A_background.jpg);       
             color:white;
         }
+        .auto-style9 {
+            height: 20px;
+            width: 166px;
+            text-align: center;
+        }
+        .auto-style10 {
+            width: 166px;
+            height: 23px;
+            text-align: center;
+        }
+        .auto-style11 {
+            width: 166px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -51,69 +65,23 @@
     <div class="JHAdd">
         <table class="auto-style1">
             <tr>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style2">
-                    &nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style2">
-                    &nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style2">
-                    &nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style2">
-                    &nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style2">
-                    &nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style2">
-                    &nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style2">
-                    &nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style2">
-                    &nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style3">&nbsp;</td>
+                <td class="auto-style9">&nbsp;</td>
                 <td class="auto-style3"><font color="blue">进货单号: </font></td>
                 <td class="auto-style2">
-                    <asp:TextBox ID="txtJHid" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtJHid" runat="server" AutoPostBack="True" ClientIDMode="Predictable" OnTextChanged="txtJHid_TextChanged"></asp:TextBox>
+                    <asp:Label ID="Label1" runat="server" Text="请按照“日期JH编码”格式输入"></asp:Label>
+                    <asp:Label ID="Label2" runat="server" Text="单号已有请重新输入"></asp:Label>
                 </td>
             </tr>
             <tr>
-                <td class="auto-style3">&nbsp;</td>
+                <td class="auto-style9">&nbsp;</td>
                 <td class="auto-style3"><font color="blue">货物名称: </font></td>
                 <td class="auto-style2">
                     <asp:TextBox ID="txtJHname" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr>
-                <td class="auto-style3">&nbsp;</td>
+                <td class="auto-style9">&nbsp;</td>
                 <td class="auto-style3"><font color="blue">进货日期:</font></td>
                 <td class="auto-style2">
                     <asp:TextBox ID="txtJHdate" runat="server"></asp:TextBox>
@@ -122,21 +90,21 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style10">&nbsp;</td>
                 <td class="auto-style5"><font color="blue">进货员工:</font></td>
                 <td class="auto-style6">
                     <asp:TextBox ID="TXTJHemployees" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr>
-                <td class="auto-style8">&nbsp;</td>
+                <td class="auto-style11">&nbsp;</td>
                 <td class="auto-style8"><font color="blue">供应商:</font></td>
                 <td>
                     <asp:TextBox ID="TXTJHsource" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr>
-                <td class="auto-style8">&nbsp;</td>
+                <td class="auto-style11">&nbsp;</td>
                 <td class="auto-style8"><font color="blue">进货数量:</font></td>
                 <td>
                     <asp:TextBox ID="txtJHcount" runat="server"></asp:TextBox>
@@ -144,7 +112,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style10">&nbsp;</td>
                 <td class="auto-style5"><font color="blue">单价:</font></td>
                 <td class="auto-style6">
                     <asp:TextBox ID="txtJHprice" runat="server"></asp:TextBox>
@@ -152,7 +120,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style8">&nbsp;</td>
+                <td class="auto-style11">&nbsp;</td>
                 <td class="auto-style8"><font color="blue">应付金额:</font></td>
                 <td>
                     <asp:TextBox ID="txtJHtotalprice" runat="server"></asp:TextBox>
@@ -160,7 +128,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style10">&nbsp;</td>
                 <td class="auto-style5"><font color="blue">实付金额:</font></td>
                 <td class="auto-style6">
                     <asp:TextBox ID="txtJHrealpay" runat="server"></asp:TextBox>

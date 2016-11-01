@@ -72,34 +72,6 @@
             </tr>
             <tr>
                 <td class="auto-style3">
-                    &nbsp;</td>
-                <td class="auto-style5">
-                    &nbsp;</td>
-                <td class="auto-style2">&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style3">
-                    &nbsp;</td>
-                <td class="auto-style5">
-                    &nbsp;</td>
-                <td class="auto-style2">&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style3">
-                    &nbsp;</td>
-                <td class="auto-style5">
-                    &nbsp;</td>
-                <td class="auto-style2">&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style3">
-                    &nbsp;</td>
-                <td class="auto-style5">
-                    &nbsp;</td>
-                <td class="auto-style2">&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style3">
                     <asp:CheckBox ID="CBgoodsID" runat="server" Text="货物编码" OnCheckedChanged="CheckBox_Click"  />
                 </td>
                 <td class="auto-style5">
@@ -146,16 +118,14 @@
                     <asp:Label ID="lblmaxprice" runat="server" Text="元"></asp:Label>
                 </td>
                 <td>
-                    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-                </td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style4">
                     <asp:Button ID="btnselect" runat="server" Text="搜索" Width="60px" OnClick="btnselect_Click" />
                 </td>
                 <td class="auto-style6">
-                    <asp:Button ID="btnclean" runat="server" Text="清空" Width="60px" />
-                </td>
+                    &nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
         </table>

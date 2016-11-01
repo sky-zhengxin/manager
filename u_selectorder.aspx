@@ -65,31 +65,7 @@
             </tr>
             <tr>
                 <td class="auto-style3">
-                    &nbsp;</td>
-                <td class="auto-style4">
-                    &nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style3">
-                    &nbsp;</td>
-                <td class="auto-style4">
-                    &nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style3">
-                    &nbsp;</td>
-                <td class="auto-style4">
-                    &nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style3">
-                    <asp:CheckBox ID="CBID" runat="server"  Text="订单编号"/>
+                    <asp:CheckBox ID="CBID" runat="server"  Text="订单编号"  OnCheckedChanged="CheckBox_Click" />
                 </td>
                 <td class="auto-style4">
                     <asp:TextBox ID="txtid" runat="server"></asp:TextBox>
@@ -99,7 +75,7 @@
             </tr>
             <tr>
                 <td class="auto-style3">
-                    <asp:CheckBox ID="CBname" runat="server" Text="货物名称" />
+                    <asp:CheckBox ID="CBname" runat="server" Text="货物名称"  OnCheckedChanged="CheckBox_Click" />
                 </td>
                 <td class="auto-style4">
                     <asp:DropDownList ID="drpname" runat="server">
@@ -110,7 +86,7 @@
             </tr>
             <tr>
                 <td class="auto-style3">
-                    <asp:CheckBox ID="CBcompany" runat="server"  Text="公司名称"/>
+                    <asp:CheckBox ID="CBcompany" runat="server"  Text="公司名称"  OnCheckedChanged="CheckBox_Click"/>
                 </td>
                 <td class="auto-style4">
                     <asp:DropDownList ID="drpcompany" runat="server">
@@ -121,24 +97,22 @@
             </tr>
             <tr>
                 <td class="auto-style3">
-                    <asp:CheckBox ID="CBstarttime" runat="server" Text="开始时间" />
+                    <asp:CheckBox ID="CBstarttime" runat="server" Text="开始时间"  OnCheckedChanged="CheckBox_Click" />
                 </td>
                 <td class="auto-style4">
                     <asp:TextBox ID="txtstarttime" runat="server"></asp:TextBox>
-                    <asp:CalendarExtender ID="txtstarttime_CalendarExtender" runat="server" Enabled="True" TargetControlID="txtstarttime" Format="yyyy-MM-dd">
-                    </asp:CalendarExtender>
+                    <asp:CalendarExtender ID="txtstarttime_CalendarExtender" runat="server" Enabled="True" TargetControlID="txtstarttime" Format="yyyy-MM-dd"> </asp:CalendarExtender>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style3">
-                    <asp:CheckBox ID="CBendtime" runat="server" Text="结束时间" />
+                    <asp:CheckBox ID="CBendtime" runat="server" Text="结束时间"  OnCheckedChanged="CheckBox_Click" />
                 </td>
                 <td class="auto-style4">
                     <asp:TextBox ID="txtendtime" runat="server"></asp:TextBox>
-                    <asp:CalendarExtender ID="txtendtime_CalendarExtender" runat="server" Enabled="True" TargetControlID="txtendtime" Format="yyyy-MM-dd">
-                    </asp:CalendarExtender>
+                    <asp:CalendarExtender ID="txtendtime_CalendarExtender" runat="server" Enabled="True" TargetControlID="txtendtime" Format="yyyy-MM-dd"></asp:CalendarExtender>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -148,8 +122,7 @@
                     <asp:Button ID="btnselect" runat="server" Text="搜索" Width="60px" OnClick="btnselect_Click" />
                 </td>
                 <td class="auto-style4">
-                    <asp:Button ID="btnclear" runat="server" Text="清空"  Width="60px"/>
-                </td>
+                    &nbsp;</td>
                 <td>
                     <asp:ScriptManager ID="ScriptManager1" runat="server">
                     </asp:ScriptManager>

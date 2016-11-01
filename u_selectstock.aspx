@@ -77,38 +77,6 @@
                 </tr>
                 <tr>
                     <td class="auto-style3">
-                        &nbsp;</td>
-                    <td>
-                        &nbsp;</td>
-                    <td class="auto-style4">&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style3">
-                        &nbsp;</td>
-                    <td>
-                        &nbsp;</td>
-                    <td class="auto-style4">&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style3">
-                        &nbsp;</td>
-                    <td>
-                        &nbsp;</td>
-                    <td class="auto-style4">&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style3">
-                        &nbsp;</td>
-                    <td>
-                        &nbsp;</td>
-                    <td class="auto-style4">&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style3">
                         <asp:CheckBox ID="CBstockid" runat="server" Text="进货单号" OnCheckedChanged="CheckBox_Click" />
                     </td>
                     <td>
@@ -168,8 +136,7 @@
                         <asp:Button ID="btnselect" runat="server" Text="搜索"  Width="60px" OnClick="btnselect_Click"/>
                     </td>
                     <td>
-                        <asp:Button ID="btnclear" runat="server" Text="清空"  Width="60px" OnClick="btnclear_Click"/>
-                    </td>
+                        &nbsp;</td>
                     <td class="auto-style4">
                         <asp:ScriptManager ID="ScriptManager1" runat="server">
                         </asp:ScriptManager>

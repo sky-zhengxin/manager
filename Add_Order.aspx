@@ -50,34 +50,6 @@
     
         <table class="auto-style1">
             <tr>
-                <td class="auto-style6"></td>
-                <td class="auto-style7">&nbsp;</td>
-                <td class="auto-style6">
-                    &nbsp;</td>
-                <td class="auto-style6"></td>
-            </tr>
-            <tr>
-                <td class="auto-style6">&nbsp;</td>
-                <td class="auto-style7">&nbsp;</td>
-                <td class="auto-style6">
-                    &nbsp;</td>
-                <td class="auto-style6">&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style6">&nbsp;</td>
-                <td class="auto-style7">&nbsp;</td>
-                <td class="auto-style6">
-                    &nbsp;</td>
-                <td class="auto-style6">&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style6">&nbsp;</td>
-                <td class="auto-style7">&nbsp;</td>
-                <td class="auto-style6">
-                    &nbsp;</td>
-                <td class="auto-style6">&nbsp;</td>
-            </tr>
-            <tr>
                 <td class="auto-style6">&nbsp;</td>
                 <td class="auto-style7">&nbsp;</td>
                 <td class="auto-style6">
@@ -95,7 +67,9 @@
                 <td class="auto-style6">&nbsp;</td>
                 <td class="auto-style7">订单ID</td>
                 <td class="auto-style6">
-                    <asp:TextBox ID="txtOrderID" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtOrderID" runat="server" OnTextChanged="txtOrderID_TextChanged" AutoPostBack="True"></asp:TextBox>
+                    <asp:Label ID="Label3" runat="server" Text="请按照日期JH编码格式输入"></asp:Label>
+                    <asp:Label ID="Label4" runat="server" Text="编号已有，请重新输入"></asp:Label>
                 </td>
                 <td class="auto-style6">&nbsp;</td>
             </tr>
@@ -113,7 +87,7 @@
                         <asp:ListItem Value="6">腈纶</asp:ListItem>
                         <asp:ListItem Value="7">添加新名称</asp:ListItem>
                     </asp:DropDownList>
-                    <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtName" runat="server" Visible="False"></asp:TextBox>
                     <br />
                 </td>
                 <td class="auto-style2"></td>

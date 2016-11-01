@@ -63,30 +63,6 @@
                 </tr>
                 <tr>
                     <td class="auto-style2">
-                        &nbsp;</td>
-                    <td class="auto-style3">
-                        &nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style2">
-                        &nbsp;</td>
-                    <td class="auto-style3">
-                        &nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style2">
-                        &nbsp;</td>
-                    <td class="auto-style3">
-                        &nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style2">
                         <asp:CheckBox ID="CBgoodsID" runat="server"  Text="货物编码" OnCheckedChanged="CheckBox_Click"/>
                     </td>
                     <td class="auto-style3">
@@ -143,8 +119,7 @@
                         <asp:Button ID="btnselect" runat="server" Text="搜索"  Width="60px" OnClick="btnselect_Click"/>
                     </td>
                     <td class="auto-style3">
-                        <asp:Button ID="btncleat" runat="server" Text="清空" Width="60px" />
-                    </td>
+                        &nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>

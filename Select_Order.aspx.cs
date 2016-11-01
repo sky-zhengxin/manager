@@ -174,7 +174,7 @@ public partial class Select_Order : System.Web.UI.Page
         string ordercompany = drpCompany.SelectedValue.Trim() ;
         string starttime = txtStarttime.Text.Trim();
         string endtime = txtEndtime.Text.Trim();
-        Label1.Text = sql;
+   
         SqlConnection coon = new SqlConnection(sqlcoon);
          
         try
@@ -221,8 +221,5 @@ public partial class Select_Order : System.Web.UI.Page
     }
 
 
-    protected void btnclean_Click(object sender, EventArgs e)
-    {
-
-    }
+   
 }

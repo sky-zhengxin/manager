@@ -134,6 +134,64 @@ public partial class u_selectorder : System.Web.UI.Page
 
     protected void btnselect_Click(object sender, EventArgs e)
     {
-
+        SqlConnection coon = new SqlConnection(sqlcoon);
+        try
+        {
+            coon.Open();
+            SqlCommand comm = new SqlCommand(sql, coon);
+            SqlDataReader rd = comm.ExecuteReader();
+            if (rd.Read())
+            {
+                coon.Close();
+                SqlDataAdapter adp = new SqlDataAdapter(sql, coon);
+                try
+                {
+                    coon.Open();
+                    DataSet ds = new DataSet();
+                    adp.Fill(ds, "Goods_Order");
+                    GVinformation.DataSource = ds.Tables[0].DefaultView;
+                    GVinformation.DataBind();
+                    GVinformation.Visible = true;
+                }
+                catch (SqlException ex)
+                {
+                    throw new Exception(ex.Message);
+                }
+                finally
+                {
+                    coon.Close();
+                }
+            }
+            else
+            {
+                Response.Write("<script>alert(\"对不起，查询不到该条件下的库存信息！\")</script>");
+            }
+        }
+        catch (SqlException ex)
+        {
+            throw new Exception(ex.Message);
+        }
+        finally
+        {
+            coon.Close();
+        }
+        
     }
+
+
+    protected void CheckBox_Click(object sender, EventArgs e)
+    {
+        string id = txtid.Text.Trim();
+        string name = drpname.SelectedValue.Trim();
+        string ordercompany = drpcompany.SelectedValue.Trim();
+        string starttime = txtstarttime.Text.Trim();
+        string endtime = txtendtime.Text.Trim();
+
+        if (CBID.Checked == true) sql += "and O_id ='" + id + "'";
+        if (CBname.Checked == true) sql += "and O_name ='" + name + "'";
+        if (CBcompany.Checked == true) sql += "and O_company ='" + ordercompany + "'";
+        if (CBstarttime.Checked == true) sql += "and O_time >='" + starttime + "'";
+        if (CBendtime.Checked == true) sql += "and O_time <= '" + endtime + "'"; 
+    }
+    
 }

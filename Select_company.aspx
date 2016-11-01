@@ -11,11 +11,11 @@
             width: 100%;
         }
         .auto-style2 {
-            width: 147px;
+            width: 304px;
             text-align: center;
         }
         .auto-style3 {
-            width: 147px;
+            width: 304px;
             text-align: center;
             height: 24px;
         }
@@ -34,46 +34,6 @@
     <div class="select_company">
 
         <table class="auto-style1">
-            <tr>
-                <td class="auto-style3">
-                    &nbsp;</td>
-                <td class="auto-style4">
-                    &nbsp;</td>
-                <td class="auto-style4"></td>
-                <td class="auto-style4"></td>
-            </tr>
-            <tr>
-                <td class="auto-style3">
-                    &nbsp;</td>
-                <td class="auto-style4">
-                    &nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style3">
-                    &nbsp;</td>
-                <td class="auto-style4">
-                    &nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style3">
-                    &nbsp;</td>
-                <td class="auto-style4">
-                    &nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style3">
-                    &nbsp;</td>
-                <td class="auto-style4">
-                    &nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-            </tr>
             <tr>
                 <td class="auto-style3">
                     &nbsp;</td>
@@ -152,10 +112,9 @@
             </tr>
             <tr>
                 <td class="auto-style2">
-                    <asp:Button ID="btnselect" runat="server" Text="搜索" Width="60px" OnClick="btnselect_Click" />
-                </td>
+                    &nbsp;</td>
                 <td>
-                    <asp:Button ID="btnclear" runat="server" Text="清空" Width="60px" />
+                    <asp:Button ID="btnselect" runat="server" Text="搜索" Width="60px" OnClick="btnselect_Click" />
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>

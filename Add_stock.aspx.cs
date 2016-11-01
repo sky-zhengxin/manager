@@ -14,7 +14,7 @@ public partial class Add_goods : System.Web.UI.Page
         if (!IsPostBack)
         {
             Binddate();
-
+            Label2.Visible = false;
 
         }
     }
@@ -123,6 +123,17 @@ public partial class Add_goods : System.Web.UI.Page
         {
             Response.Write("<script>alert(\"添加信息成功！\")</script>");
             Binddate();
+        }
+    }
+    protected void txtJHid_TextChanged(object sender, EventArgs e)
+    {
+        string stock = txtJHid.Text.Trim();
+        users us = new users();
+        us.stockno = stock;
+        int result = us.selectJH(us);
+        if (result > 0)
+        {
+            Label2.Visible = true;
         }
     }
 }

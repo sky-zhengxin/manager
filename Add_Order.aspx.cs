@@ -14,7 +14,7 @@ public partial class Add_Order : System.Web.UI.Page
         if (!IsPostBack)
         {
             Binddate();
-
+            Label4.Visible = false;
 
         }
     }
@@ -101,5 +101,16 @@ public partial class Add_Order : System.Web.UI.Page
         {
             txtName.Visible = true;
         }
+    }
+    protected void txtOrderID_TextChanged(object sender, EventArgs e)
+    {
+        string id = txtOrderID.Text.Trim();
+        users us = new users();
+        us.id = id;
+        int result = us.selectDD(us);
+            if(result > 0)
+            {
+                Label4.Visible = true;
+            }
     }
 }

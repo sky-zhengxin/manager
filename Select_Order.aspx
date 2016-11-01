@@ -97,33 +97,6 @@
                 </tr>
                 <tr>
                     <td class="auto-style16">
-                        &nbsp;</td>
-                    <td class="auto-style9">
-                        &nbsp;</td>
-                    <td class="auto-style7">&nbsp;</td>
-                    <td class="auto-style2">
-                        &nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style16">
-                        &nbsp;</td>
-                    <td class="auto-style9">
-                        &nbsp;</td>
-                    <td class="auto-style7">&nbsp;</td>
-                    <td class="auto-style2">
-                        &nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style16">
-                        &nbsp;</td>
-                    <td class="auto-style9">
-                        &nbsp;</td>
-                    <td class="auto-style7">&nbsp;</td>
-                    <td class="auto-style2">
-                        &nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style16">
                         <asp:CheckBox ID="CBID" runat="server" text="订单编号" OnCheckedChanged="CheckBox_Click"/>
                     </td>
                     <td class="auto-style9">
@@ -180,8 +153,7 @@
                         </asp:CalendarExtender>
                     </td>
                     <td class="auto-style8">
-                        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-                    </td>
+                        &nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
             </table>
@@ -189,10 +161,9 @@
             <table class="auto-style1">
                 <tr>
                     <td class="auto-style11">
-                        <asp:Button ID="btnselect" runat="server" Text="查询" Width="77px" OnClick="btnselect_Click" />
-                    </td>
+                        &nbsp;</td>
                     <td class="auto-style12">
-                        <asp:Button ID="btnclean" runat="server" Text="清空" Width="77px" OnClick="btnclean_Click" />
+                        <asp:Button ID="btnselect" runat="server" Text="查询" Width="77px" OnClick="btnselect_Click" />
                     </td>
                     <td class="auto-style13">
                         <asp:ScriptManager ID="ScriptManager1" runat="server">

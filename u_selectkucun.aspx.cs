@@ -10,7 +10,7 @@ using System.Data.SqlClient;
 public partial class u_selectkucun : System.Web.UI.Page
 {
     private static string sqlcoon = System.Configuration.ConfigurationManager.AppSettings["strCoon"].ToString().Trim();
-    private + string sql = "select * from Goods_information where 1=1";
+    private string sql = "select * from Goods_information where 1=1";
     protected void Page_Load(object sender, EventArgs e)
     {
         if (!IsPostBack)
@@ -186,4 +186,5 @@ public partial class u_selectkucun : System.Web.UI.Page
         }
         
     }
+    
 }

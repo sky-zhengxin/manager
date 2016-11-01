@@ -85,30 +85,6 @@
                 </tr>
                 <tr>
                     <td class="auto-style2">
-                        &nbsp;</td>
-                    <td>
-                        &nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style2">
-                        &nbsp;</td>
-                    <td>
-                        &nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style2">
-                        &nbsp;</td>
-                    <td>
-                        &nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style2">
                         <asp:CheckBox ID="CBcompany" runat="server" Text="公司名称" />
                     </td>
                     <td>
@@ -132,8 +108,7 @@
                         <asp:Button ID="btnselect" runat="server" Text="搜索" Width="60px" OnClick="btnselect_Click" style="height: 21px" />
                     </td>
                     <td>
-                        <asp:Button ID="btnclear" runat="server" Text="清空" Width="60px" />
-                    </td>
+                        &nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
@@ -147,7 +122,7 @@
                     OnRowCancelingEdit="GVinformation_RowCancelingEdit" 
                     OnRowDataBound="GVinformation_RowDataBound" 
                     OnRowEditing="GVinformation_RowEditing"  
-                    OnSorting="GVinformation_Sorting" Width="700px" OnSelectedIndexChanged="GVinformation_SelectedIndexChanged" >
+                    OnSorting="GVinformation_Sorting" Width="700px"  >
                     <Columns>
                        <asp:BoundField DataField="C_name" HeaderText="公司名称"  />
                             <asp:BoundField DataField="C_phone" HeaderText="联系方式"  />

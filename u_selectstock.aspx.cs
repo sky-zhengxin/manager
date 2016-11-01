@@ -101,10 +101,7 @@ public partial class u_selectstock : System.Web.UI.Page
         }
         
     }
-    protected void btnclear_Click(object sender, EventArgs e)
-    {
-
-    }
+   
     protected void Binddate()
     {
         SqlConnection coon = new SqlConnection(sqlcoon);
